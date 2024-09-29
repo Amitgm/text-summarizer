@@ -28,9 +28,9 @@ list_of_files = [
     "app.py",
     "main.py",
     "Dockerfile",
-    "requirements.txt"
+    "requirements.txt",
     "setup.py",
-    "reseach/trails.ipynb",
+    "reseach/trails.ipynb"
    ]
 
 for filepath in list_of_files:
