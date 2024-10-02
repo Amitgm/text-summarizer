@@ -10,3 +10,12 @@ data_ingestion:
   local_data_file: artifacts/data_ingestion/data.zip
   # unzip the data inside data_ingestion folder
   unzip_dir: artifacts/data_ingestion
+
+#  to check if the data is in the correct format
+data_validation:
+
+  root_dir: artifacts/data_validation
+  # validation data url
+  source_URL: artifacts/data_validation/status.txt
+  # download the validation data inside data_validation folder
+  all_required_files: ["train","test","validation"]

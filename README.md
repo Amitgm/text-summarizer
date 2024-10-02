@@ -10,4 +10,6 @@ summarization of text project
 4. update the configuration manager in src config
 5. Create the componenets
 6. update the pipeline
+7. update the main.py
+8. update the app.py
 
